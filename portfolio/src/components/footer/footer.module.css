@@ -1,0 +1,33 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  place-items: center;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: center;
+  color: rgb(84, 84, 84);
+  margin: 1rem;
+}
+.name {
+  font-weight: bold;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.img {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 3vh;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}

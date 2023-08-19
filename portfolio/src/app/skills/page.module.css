@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  height: 80vh;
+}
+.frontend {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-left: 1.5rem;
+}
+.txt {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: "Poppines" sans-serif;
+}
+.unit {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  place-items: start;
+  gap: 1rem;
+}
+.head {
+  display: grid;
+  text-align: center;
+}
